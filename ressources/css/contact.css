@@ -20,3 +20,31 @@
     margin: 0 auto;
     margin-top: 10px;
 }
+.card{
+    background-color: #5D6D7E;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px#D6DBDF;
+}
+#contact{
+    margin-bottom: 200px;
+}
+#contact h5{
+    font-family: 'Sanchez', serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+#contact h5 span{
+    color: lawngreen;
+}
+#contact input, textarea{
+    margin-bottom: 15px;
+}
+textarea{
+    border-radius: 5px;
+}
+.container h5{
+    text-align: center;
+}

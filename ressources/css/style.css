@@ -11,7 +11,10 @@ body{
 
 header{
     background-color:#000;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+header .container{
+    margin-top: 0;
 }
 header h1{
     font-family: 'Pacifico';
@@ -20,7 +23,10 @@ header h1{
     color: lawngreen;
     padding: 20px 30px;
 }
-
+.container{
+    margin-top: 20px;
+    justify-content: center;
+}
 .title a{
     position: relative;
     padding: 10px 30px;
@@ -120,6 +126,9 @@ nav a{
 
 /* CAROUSEL */
 
+.carouselNature{
+    margin-top: 20px;
+}
 .carousel-item { 
 height: 100vh; 
 min-height: 350px; 
@@ -136,4 +145,67 @@ background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer h2{
+    font-family: 'Pacifico';
+    font-size: 50px;
+    font-style: normal;
+    color: lawngreen;
+    padding: 20px 30px;
+}
+footer h5{
+    color: lawngreen;
+}
+footer p{
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: lawngreen;
+}
+footer a:link{
+    text-decoration: none;
+}
+button{
+    background-color: #000;
+    border: none;
+}
+.pointer{
+    cursor: pointer;
+}
+i{
+    font-size: 30px;
+    margin-right: 30px;
+    padding: 5px 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+#facebook:hover{
+    background-color: #3b5998;
+    color: #fff;
+    text-decoration: none;
+}
+#pinterest:hover{
+    background-color: #c8232c;
+    color: #fff;
+    text-decoration: none;
+}
+#youtube:hover{
+    background-color: #c4302b;
+    color: #fff;
+    text-decoration: none;
+}
+#instagram:hover{
+    background-color: #3f729b;
+    color: #fff;
+    text-decoration: none;
 }
