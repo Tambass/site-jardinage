@@ -19,7 +19,7 @@
     content: " ";
     margin: 0 auto;
     margin-top: 10px;
-}/*
+}
 .card{
     background-color: #5D6D7E;
     padding: 30px;
@@ -47,8 +47,8 @@ textarea{
 }
 .container h5{
     text-align: center;
-}*/
-
+}
+/*
 .contact{
     justify-content: center;
     padding: 80px;
@@ -117,4 +117,4 @@ textarea{
     padding: 5px 65px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-}
+}*/
